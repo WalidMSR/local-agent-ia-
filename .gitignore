@@ -1,3 +1,10 @@
-.venv
+
+# # Whitelist specific directories to ignore them explicitly
+# !.venv/
+# !chrome_langchain_db/
+# !__pycache__/
+
+# Ignore the specific directories
+.venv/
 chrome_langchain_db/
 __pycache__/
